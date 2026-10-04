@@ -443,23 +443,27 @@
         app:strokeColor="#E91E63"
         app:strokeWidth="1dp" />
 
-    <TextView
-        android:id="@+id/textViewResult"
+    <EditText
+        android:id="@+id/editTextNumber"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="350dp"
         android:layout_height="220dp"
-        android:background="#FFFFFF"
+        android:background="#DCD0D0"
+        android:backgroundTint="#FFFFFF"
         android:elevation="20dp"
-        android:translationZ="10dp"
+        android:ems="10"
         android:fontFamily="@font/roboto_mono_medium"
+        android:hyphenationFrequency="normal"
+        android:inputType="number"
         android:textSize="30sp"
-        android:textColor="#000000"
-        android:gravity="bottom|end"
-        android:padding="16dp"
+        android:translationZ="10dp"
         app:layout_constraintBottom_toTopOf="@+id/calcular9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.255" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
